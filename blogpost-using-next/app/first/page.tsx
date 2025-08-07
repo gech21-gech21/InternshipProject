@@ -29,7 +29,13 @@ export default function firstproject() {
         of agro-farming is crucial for improving livelihoods and ensuring food
         security in the country.
       </p>
-      <Link href="/comment"  className="rounded-lg bg-green-400 w-13 p-6"> Add comment</Link>
+      <Link
+        href="../api/comment-form"
+        className="rounded-lg bg-green-400 w-13 p-6"
+      >
+        {" "}
+        Add comment
+      </Link>
     </div>
   );
 }
